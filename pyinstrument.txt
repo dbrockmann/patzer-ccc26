@@ -1,0 +1,45 @@
+
+  _     ._   __/__   _ _  _  _ _/_   Recorded: 16:51:45  Samples:  4185
+ /_//_/// /_\ / //_// / //_'/ //     Duration: 4.241     CPU time: 5.289
+/   _/                      v5.1.3
+
+Program: ccc26.eval.perft --board ccc26.user.dobrockmann.adapter.PatzerBoard --mode custom --depth 4 --fen r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1
+
+4.240 <module>  ccc26/eval/perft.py:1
+├─ 4.184 main  ccc26/eval/perft.py:262
+│  ├─ 3.890 run_perft_session  ccc26/eval/perft.py:166
+│  │  └─ 3.877 custom_perft  ccc26/eval/perft.py:81
+│  │     └─ 3.861 custom_perft  ccc26/eval/perft.py:81
+│  │        └─ 3.852 custom_perft  ccc26/eval/perft.py:81
+│  │           ├─ 3.628 custom_perft  ccc26/eval/perft.py:81
+│  │           │  ├─ 1.286 PatzerBoard.push_move  ccc26/user/dobrockmann/adapter.py:36
+│  │           │  ├─ 1.065 [self]  ccc26/eval/perft.py
+│  │           │  ├─ 0.730 PatzerBoard.pop_move  ccc26/user/dobrockmann/adapter.py:41
+│  │           │  ├─ 0.436 PatzerBoard.get_legal_moves  ccc26/user/dobrockmann/adapter.py:32
+│  │           │  │  ├─ 0.280 [self]  ccc26/user/dobrockmann/adapter.py
+│  │           │  │  └─ 0.156 legal_moves  ccc26/user/dobrockmann/board/board.py:38
+│  │           │  │     ├─ 0.092 [self]  ccc26/user/dobrockmann/board/board.py
+│  │           │  │     └─ 0.044 ndarray.tolist  <built-in>
+│  │           │  └─ 0.111 custom_perft  ccc26/eval/perft.py:81
+│  │           ├─ 0.111 [self]  ccc26/eval/perft.py
+│  │           └─ 0.057 PatzerBoard.push_move  ccc26/user/dobrockmann/adapter.py:36
+│  └─ 0.294 load_board_class  ccc26/board/board.py:132
+│     └─ 0.294 import_module  importlib/__init__.py:73
+│        └─ 0.293 <module>  ccc26/user/dobrockmann/adapter.py:1
+│           └─ 0.293 <module>  ccc26/user/dobrockmann/board/board.py:1
+│              ├─ 0.247 <module>  ccc26/user/dobrockmann/board/movegen.py:1
+│              │  ├─ 0.121 <module>  ccc26/user/dobrockmann/board/compiled.py:1
+│              │  │  └─ 0.115 <module>  numba/__init__.py:1
+│              │  │     └─ 0.045 <module>  numba/core/decorators.py:1
+│              │  │        └─ 0.044 <module>  numba/stencils/stencil.py:1
+│              │  └─ 0.118 _slider_tables  ccc26/user/dobrockmann/board/movegen.py:377
+│              │     └─ 0.111 CPUDispatcher._compile_for_args  numba/core/dispatcher.py:342
+│              │        └─ 0.110 CPUDispatcher.compile  numba/core/dispatcher.py:873
+│              │           └─ 0.110 FunctionCache.load_overload  numba/core/caching.py:743
+│              │              └─ 0.108 CPUContext.refresh  numba/core/base.py:261
+│              │                 └─ 0.072 CPUContext.load_additional_registries  numba/core/cpu.py:102
+│              └─ 0.044 <module>  numpy/__init__.py:1
+└─ 0.054 <module>  chess/__init__.py:1
+   └─ 0.049 _attack_table  chess/__init__.py:534
+      └─ 0.043 _sliding_attacks  chess/__init__.py:495
+

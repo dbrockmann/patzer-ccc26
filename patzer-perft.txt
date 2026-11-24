@@ -1,0 +1,51 @@
+course 3dffbe826fd612854f0a354dc391978483aad5d6, Python 3.12, AMD Ryzen 7 8845HS w/ Radeon 780M Graphics
+load average 1.63 0.86 0.93
+compiled on one core, counting the last ply without visiting it
+
+## Standard Starting Position, run 1
+nodes: 197281
+seconds: 0.000406
+
+## Kiwi-Pete, run 1
+nodes: 4085603
+seconds: 0.004074
+
+## En Passant & Pins, run 1
+nodes: 43238
+seconds: 0.000143
+
+## Mirrored / Heavy Checks, run 1
+nodes: 422333
+seconds: 0.000479
+
+## Standard Starting Position, run 2
+nodes: 197281
+seconds: 0.000394
+
+## Kiwi-Pete, run 2
+nodes: 4085603
+seconds: 0.004127
+
+## En Passant & Pins, run 2
+nodes: 43238
+seconds: 0.000146
+
+## Mirrored / Heavy Checks, run 2
+nodes: 422333
+seconds: 0.000476
+
+## Standard Starting Position, run 3
+nodes: 197281
+seconds: 0.000401
+
+## Kiwi-Pete, run 3
+nodes: 4085603
+seconds: 0.004055
+
+## En Passant & Pins, run 3
+nodes: 43238
+seconds: 0.000159
+
+## Mirrored / Heavy Checks, run 3
+nodes: 422333
+seconds: 0.000456

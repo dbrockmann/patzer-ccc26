@@ -1,0 +1,314 @@
+course 3dffbe826fd612854f0a354dc391978483aad5d6, Python 3.12, AMD Ryzen 7 8845HS w/ Radeon 780M Graphics
+load average 0.43 0.46 0.81
+
+## Standard Starting Position, run 1
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 20 | Time: 0.0002s
+[PatzerBoard] Nodes: 20 | Time: 0.0141s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 400 | Time: 0.0015s
+[PatzerBoard] Nodes: 400 | Time: 0.0002s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 8,902 | Time: 0.0307s
+[PatzerBoard] Nodes: 8,902 | Time: 0.0057s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 197,281 | Time: 0.6415s
+[PatzerBoard] Nodes: 197,281 | Time: 0.1037s
+Status: ✅ PASS
+
+## Kiwi-Pete, run 1
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 48 | Time: 0.0003s
+[PatzerBoard] Nodes: 48 | Time: 0.0437s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 2,039 | Time: 0.0953s
+[PatzerBoard] Nodes: 2,039 | Time: 0.0129s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 97,862 | Time: 1.0870s
+[PatzerBoard] Nodes: 97,862 | Time: 0.0490s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 4,085,603 | Time: 13.4480s
+[PatzerBoard] Nodes: 4,085,603 | Time: 2.0241s
+Status: ✅ PASS
+
+## En Passant & Pins, run 1
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: 8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 14 | Time: 0.0002s
+[PatzerBoard] Nodes: 14 | Time: 0.0131s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 191 | Time: 0.0009s
+[PatzerBoard] Nodes: 191 | Time: 0.0001s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 2,812 | Time: 0.0103s
+[PatzerBoard] Nodes: 2,812 | Time: 0.0016s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 43,238 | Time: 0.1609s
+[PatzerBoard] Nodes: 43,238 | Time: 0.0238s
+Status: ✅ PASS
+
+## Mirrored / Heavy Checks, run 1
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: r3k2r/Pppp1ppp/1b3nbN/nP6/BBP1P3/q4N2/Pp1P2PP/R2Q1RK1 w kq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 6 | Time: 0.0001s
+[PatzerBoard] Nodes: 6 | Time: 0.0133s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 264 | Time: 0.0011s
+[PatzerBoard] Nodes: 264 | Time: 0.0001s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 9,467 | Time: 0.0298s
+[PatzerBoard] Nodes: 9,467 | Time: 0.0047s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 422,333 | Time: 1.3728s
+[PatzerBoard] Nodes: 422,333 | Time: 0.2090s
+Status: ✅ PASS
+
+## Standard Starting Position, run 2
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 20 | Time: 0.0002s
+[PatzerBoard] Nodes: 20 | Time: 0.0131s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 400 | Time: 0.0015s
+[PatzerBoard] Nodes: 400 | Time: 0.0002s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 8,902 | Time: 0.0278s
+[PatzerBoard] Nodes: 8,902 | Time: 0.0047s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 197,281 | Time: 0.6287s
+[PatzerBoard] Nodes: 197,281 | Time: 0.1059s
+Status: ✅ PASS
+
+## Kiwi-Pete, run 2
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 48 | Time: 0.0003s
+[PatzerBoard] Nodes: 48 | Time: 0.0127s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 2,039 | Time: 0.0072s
+[PatzerBoard] Nodes: 2,039 | Time: 0.0010s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 97,862 | Time: 0.3077s
+[PatzerBoard] Nodes: 97,862 | Time: 0.0478s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 4,085,603 | Time: 13.3602s
+[PatzerBoard] Nodes: 4,085,603 | Time: 2.0322s
+Status: ✅ PASS
+
+## En Passant & Pins, run 2
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: 8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 14 | Time: 0.0002s
+[PatzerBoard] Nodes: 14 | Time: 0.0131s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 191 | Time: 0.0009s
+[PatzerBoard] Nodes: 191 | Time: 0.0001s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 2,812 | Time: 0.0099s
+[PatzerBoard] Nodes: 2,812 | Time: 0.0016s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 43,238 | Time: 0.1581s
+[PatzerBoard] Nodes: 43,238 | Time: 0.0241s
+Status: ✅ PASS
+
+## Mirrored / Heavy Checks, run 2
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: r3k2r/Pppp1ppp/1b3nbN/nP6/BBP1P3/q4N2/Pp1P2PP/R2Q1RK1 w kq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 6 | Time: 0.0001s
+[PatzerBoard] Nodes: 6 | Time: 0.0131s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 264 | Time: 0.0011s
+[PatzerBoard] Nodes: 264 | Time: 0.0001s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 9,467 | Time: 0.0296s
+[PatzerBoard] Nodes: 9,467 | Time: 0.0048s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 422,333 | Time: 1.3889s
+[PatzerBoard] Nodes: 422,333 | Time: 0.2083s
+Status: ✅ PASS
+
+## Standard Starting Position, run 3
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 20 | Time: 0.0002s
+[PatzerBoard] Nodes: 20 | Time: 0.0129s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 400 | Time: 0.0015s
+[PatzerBoard] Nodes: 400 | Time: 0.0002s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 8,902 | Time: 0.0276s
+[PatzerBoard] Nodes: 8,902 | Time: 0.0049s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 197,281 | Time: 0.6411s
+[PatzerBoard] Nodes: 197,281 | Time: 0.1109s
+Status: ✅ PASS
+
+## Kiwi-Pete, run 3
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 48 | Time: 0.0003s
+[PatzerBoard] Nodes: 48 | Time: 0.0134s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 2,039 | Time: 0.0072s
+[PatzerBoard] Nodes: 2,039 | Time: 0.0010s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 97,862 | Time: 0.3117s
+[PatzerBoard] Nodes: 97,862 | Time: 0.0480s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 4,085,603 | Time: 13.1571s
+[PatzerBoard] Nodes: 4,085,603 | Time: 2.0213s
+Status: ✅ PASS
+
+## En Passant & Pins, run 3
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: 8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 14 | Time: 0.0002s
+[PatzerBoard] Nodes: 14 | Time: 0.0132s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 191 | Time: 0.0009s
+[PatzerBoard] Nodes: 191 | Time: 0.0001s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 2,812 | Time: 0.0100s
+[PatzerBoard] Nodes: 2,812 | Time: 0.0016s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 43,238 | Time: 0.1579s
+[PatzerBoard] Nodes: 43,238 | Time: 0.0245s
+Status: ✅ PASS
+
+## Mirrored / Heavy Checks, run 3
+Starting Perft Test (Mode: compare, Divide: False)
+Board Class: PatzerBoard
+FEN: r3k2r/Pppp1ppp/1b3nbN/nP6/BBP1P3/q4N2/Pp1P2PP/R2Q1RK1 w kq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[Reference] Nodes: 6 | Time: 0.0001s
+[PatzerBoard] Nodes: 6 | Time: 0.0132s
+Status: ✅ PASS
+
+--- Depth 2 ---
+[Reference] Nodes: 264 | Time: 0.0011s
+[PatzerBoard] Nodes: 264 | Time: 0.0002s
+Status: ✅ PASS
+
+--- Depth 3 ---
+[Reference] Nodes: 9,467 | Time: 0.0299s
+[PatzerBoard] Nodes: 9,467 | Time: 0.0047s
+Status: ✅ PASS
+
+--- Depth 4 ---
+[Reference] Nodes: 422,333 | Time: 1.4032s
+[PatzerBoard] Nodes: 422,333 | Time: 0.2098s
+Status: ✅ PASS

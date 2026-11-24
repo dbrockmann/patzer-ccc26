@@ -1,0 +1,61 @@
+Starting Perft Test (Mode: custom, Divide: False)
+Board Class: PatzerBoard
+FEN: r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1
+------------------------------------------------------------
+
+--- Depth 1 ---
+[PatzerBoard] Nodes: 48 | Time: 0.0171s
+
+--- Depth 2 ---
+[PatzerBoard] Nodes: 2,039 | Time: 0.0020s
+
+--- Depth 3 ---
+[PatzerBoard] Nodes: 97,862 | Time: 0.0925s
+
+--- Depth 4 ---
+[PatzerBoard] Nodes: 4,085,603 | Time: 3.9014s
+         14573172 function calls (10268491 primitive calls) in 4.430 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    489/1    0.003    0.000    4.430    4.430 {built-in method builtins.exec}
+        1    0.000    0.000    4.430    4.430 <string>:1(<module>)
+        1    0.000    0.000    4.430    4.430 <frozen runpy>:201(run_module)
+        1    0.000    0.000    4.429    4.429 <frozen runpy>:65(_run_code)
+        1    0.000    0.000    4.429    4.429 perft.py:1(<module>)
+        1    0.000    0.000    4.362    4.362 perft.py:262(main)
+        1    0.000    0.000    4.027    4.027 perft.py:166(run_perft_session)
+4287640/4    1.350    0.000    4.013    1.003 perft.py:81(custom_perft)
+  4287636    1.336    0.000    1.339    0.000 adapter.py:36(push_move)
+  4287636    0.780    0.000    0.782    0.000 adapter.py:41(pop_move)
+   102088    0.339    0.000    0.542    0.000 adapter.py:32(get_legal_moves)
+       55    0.001    0.000    0.447    0.008 __init__.py:1(<module>)
+   541/38    0.002    0.000    0.402    0.011 <frozen importlib._bootstrap>:1349(_find_and_load)
+    505/6    0.001    0.000    0.402    0.067 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+    482/9    0.001    0.000    0.400    0.044 <frozen importlib._bootstrap>:911(_load_unlocked)
+    434/7    0.001    0.000    0.400    0.057 <frozen importlib._bootstrap_external>:993(exec_module)
+  1206/14    0.001    0.000    0.400    0.029 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+    44/33    0.000    0.000    0.332    0.010 __init__.py:73(import_module)
+    46/33    0.000    0.000    0.332    0.010 <frozen importlib._bootstrap>:1375(_gcd_import)
+        1    0.000    0.000    0.332    0.332 board.py:132(load_board_class)
+    558/3    0.000    0.000    0.331    0.110 {built-in method builtins.__import__}
+        1    0.000    0.000    0.331    0.331 adapter.py:1(<module>)
+ 5887/104    0.003    0.000    0.331    0.003 <frozen importlib._bootstrap>:1390(_handle_fromlist)
+        2    0.000    0.000    0.331    0.165 board.py:1(<module>)
+        1    0.001    0.001    0.279    0.279 movegen.py:1(<module>)
+   102088    0.108    0.000    0.203    0.000 board.py:38(legal_moves)
+        6    0.000    0.000    0.155    0.026 dispatcher.py:342(_compile_for_args)
+        6    0.000    0.000    0.153    0.026 dispatcher.py:873(compile)
+        6    0.000    0.000    0.152    0.025 caching.py:743(load_overload)
+        1    0.000    0.000    0.136    0.136 compiled.py:1(<module>)
+        2    0.001    0.000    0.132    0.066 movegen.py:377(_slider_tables)
+    257/6    0.000    0.000    0.121    0.020 base.py:261(refresh)
+      257    0.002    0.000    0.092    0.000 cpu.py:102(load_additional_registries)
+        3    0.003    0.001    0.060    0.020 __init__.py:534(_attack_table)
+    10816    0.011    0.000    0.058    0.000 __init__.py:495(_sliding_attacks)
+      435    0.002    0.000    0.057    0.000 <frozen importlib._bootstrap_external>:1066(get_code)
+        3    0.000    0.000    0.051    0.017 decorators.py:1(<module>)
+        1    0.000    0.000    0.048    0.048 stencil.py:1(<module>)
+   102088    0.047    0.000    0.047    0.000 {method 'tolist' of 'numpy.ndarray' objects}
+    53810    0.029    0.000    0.047    0.000 __init__.py:266(square_distance)
